@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta keyword="Elementos básicos del html- Formularios" lang="es" content="Elementos de html-Formularios">
+    <meta author="Blackdino1500">
+    <title>Formularios</title>
+</head>
+<body>
+    <header>
+        <div>
+            <h1 id="Inicio">BienesRaices</h1>
+                <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#Nosotros">Nosotros</a></li>
+                    <li><a href="#Anuncios">Anuncios</a></li>
+                    <li><a href="#Blog">Blog</a></li>
+                    <li><a href="#Contacto">Contacto</a></li>
+                </ul>
+                </nav>
+        <img src="Imagenes/formimg.jpg" alt="casa de bienes raices" height="400" width="600">
+            <h2>Llena el formulario de Contacto</h2> 
+        </div>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Información Personal</legend>
+                <label for="Nombre">Nombre</label><br>
+                <input type="text" id="Nombre" name="Nombre" placeholder="Tu Nombre"><br><br>
+                <label for="E-Mail">E-Mail</label><br>
+                <input type="email" name="email" id="email" placeholder="Tu Correo Electronico"><br><br>
+                <label for="Teléfono">Teléfono</label><br>
+                <input type="tel" name="Teléfono" id="Teléfono" placeholder="Tu Teléfono"><br><br>
+                <label for="Mensaje">Mensaje</label><br>
+                <textarea name="Mensaje" id="Mensaje" rows="10" cols="45" placeholder="Escribe tu mensaje"></textarea>
+            </fieldset><br>
+            <fieldset>
+                <legend>Información sobre Propiedad</legend>
+                <label for="Vende o Compra">Vende o Compra</label><br>
+                <select id="Vende o Compra">
+                    <optgroup>
+                        <option value="vender">vender</option>
+                        <option value="comprar">comprar</option>
+                    </optgroup>
+                </select><br>
+                <label for="Cantidad">Cantidad</label><br>
+                <input type="text" name="Cantidad" id="Cantidad""><br><br>
+            </fieldset><br>
+            <fieldset>
+                <legend>Contacto</legend>
+                <label for="Contacto">Como desea ser contactado</label><br>
+                <input type="checkbox" id="Contacto" value="Telefono">Teléfono <input type="checkbox" id="Contacto" value="E-Mail">E-Mail<br><br>
+                <p>Si eligió Teléfono, elija la fecha y la hora</p>
+                <label for="Fecha">Fecha</label><br>
+                <input type="date" name="Fecha" id="Fecha"><br><br>
+                <label for="Hora">Hora</label><br>
+                <input type="time" name="Hora" id="Hora"><br><br>
+            </fieldset><br>
+            <input type="submit">
+        </form>
+    </main>
+    
+</body>
+</html>
