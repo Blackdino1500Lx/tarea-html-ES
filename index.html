@@ -6,6 +6,8 @@
     <meta keyword="Elementos básicos del html" lang="es" content="Elementos de htl">
     <meta author="Blackdino1500">
     <title>Bienes raices</title>
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
     <header>
@@ -20,43 +22,49 @@
                     <li><a href="Form.html">Contacto</a></li>
                 </ul>
                 </nav>
-        <img src="Imagenes/imagen1.jpg" alt="casa de bienes raices" height="400" width="600">
-            <h2>Venta de casas y departementos</h2><h3>exclusivos y de lujo</h3> 
-        </div>
-    </header>
-    <main>
-        <h2>Más sobre nosotros</h2>
-            <section>
-                <img src="Imagenes/candado.png" width="60" height="60" alt="seguridad"><br> <strong>Seguridad</strong> <br> <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis debitis corrupti consectetur exercitationem.</p>
-            </section> 
-            <section>
-                <img src="Imagenes/billete.png" width="60" height="60" alt="mejor precio"><br><strong> El mejor precio</strong><br><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quo numquam quos. Odit, facere excepturi</p> 
-            </section> 
-            <section>
-                <img src="Imagenes/reloj.png" alt="a tiempo" width="60" height="60"><br><strong>A Tiempo</strong><br><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore enim odio eum!</p>
-            </section>
+    <div class="container">
+        <img class="banner" src="Imagenes/imagen1.jpg" alt="casa de bienes raices" height="400" width="600">
+                <h2 class="sub1">Venta de casas y departementos</h2><h3 class="sub2">exclusivos y de lujo</h3> 
+            
+        </header>
+        <main>
+            <section class="about">
+                <h2 class="sub3">Más sobre nosotros</h2>
+                <article>
+                    <img src="Imagenes/candado.png" width="60" height="60" alt="seguridad"><br> <strong>Seguridad</strong> <br> <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis debitis corrupti consectetur exercitationem.</p>
+                </article> 
+                <article>
+                    <img src="Imagenes/billete.png" width="60" height="60" alt="mejor precio"><br><strong> El mejor precio</strong><br><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quo numquam quos. Odit, facere excepturi</p> 
+                </article> 
+                <article>
+                    <img src="Imagenes/reloj.png" alt="a tiempo" width="60" height="60"><br><strong>A Tiempo</strong><br><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore enim odio eum!</p>
+                </article>
+    </div>
+        </section>
             <h2>Casas y Depas en venta</h2>
             <section>
             <img src="Imagenes/casaplaya.jpg" width="200" height="150" alt="casa en el lago"> <h3>Casa de Lago</h3><p>Casa en el lago con exelente vista</p><font color="lime">$55000</font><br><br><img src="Imagenes/inodoro.png" alt="baños" width="30" height="30">2<img src="Imagenes/carro.png" width="30" height="30" alt="cochera">4<img src="Imagenes/cama.png" alt="cuartos" width="30" height="30">3 <br>
-            <button>Ver Propiedad</button>
+            <button class="boton1">Ver Propiedad</button>
             </section><br>
-            <section>
+            <section class="info1">
+            <article>
                 <img src="Imagenes/casalujo.jpg" width="200" height="150" alt="casa en la playa"> <h3>Casa de Lujo</h3><p>Casa  con diseño moderno, equipada con alta tecnología y amueblada</p><font color="lime">$55000</font><br><br><img src="Imagenes/inodoro.png" alt="baños" width="30" height="30"> <img src="Imagenes/carro.png" width="30" height="30" alt="cochera"> <img src="Imagenes/cama.png" alt="cuartos" width="30" height="30"><br>
                 <button>Ver Propiedad</button>
-            </section><br>
-            <section>
+            </article><br>
+            <article>
                 <img src="Imagenes/casapiscina.jpg" width="200" height="150" alt="casa en la playa"> <h3>Casa de Lujo</h3><p>Casa con piscina grande y amueblada</p><font color="lime">$55000</font><br><br><img src="Imagenes/inodoro.png" alt="baños" width="30" height="30"> <img src="Imagenes/carro.png" width="30" height="30" alt="cochera"> <img src="Imagenes/cama.png" alt="cuartos" width="30" height="30"><br>
                 <button>Ver Propiedad</button>
-            </section><br><br><br>
+            </article><br><br><br>
             <h2>Nuestro Blog</h2>
-            <section>
+            <article>
                 <img src="Imagenes/terraza.jpg" alt=" terraza" width="150" height="100"><br><p><strong>Terraza en el techo de tu casa</strong></p>
                 <hr size="3" width="100" color="lime" align="left">
                 <h6>Escrito el <font color="red">20/10/19</font> por<font color="red"> Admin</font></h6><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque fugiat atque.</p>
-            </section>
+            </article>
             <img src="Imagenes/decoracion.jpg" alt=" terraza" width="150" height="100"><br><p><strong>Guía para la decoración de tu hogar</strong></p>
                 <hr size="3" width="100" color="lime" align="left">
                 <h6>Escrito el <font color="red">20/10/19</font> por<font color="red"> Admin</font></h6><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque fugiat atque.</p>
+            </section>
             <aside>
                 <h2>Testimonios</h2>
                 <div>
