@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.iniciotag{
+    text-align: center;
+}
+.iniciotag{
+    height: 130px;
+    background-color: #f4f9e9;
+}
+h1{
+    color: #000;
+    margin-top: 0;
+}
+.iniciotag a{
+    text-decoration: none;
+    color: #fff;
+}
+.iniciotag li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color: #284b64;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+.iniciotag li:hover{
+    background-color: #18222c;    
+}
+.container{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+}
+.banner{
+    width: 80%;
+    height: 650px;
+}
+h2, h3{
+    color: #222222;
+    text-align: center;
+    font-size: 26px;
+}
+.sub1{
+    position: absolute;
+    top: 650px;
+    left: 250px;
+}
+.sub2{
+    position: absolute;
+    top: 695px;
+    left: 300px;
+}
+.sub3{
+    margin: 40px;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+.sub4{
+    margin-top: 60px;
+}
+.about{
+    display:inline-flexbox; 
+    align-items: center;
+    margin:0px 550px;
+    padding: 0px;
+    
+    
+}
+.aboutC1, .aboutC2,.aboutC3{
+    display: inline-block;
+    background-color: #00000075;
+    text-align: center;
+    color: #fff;
+    width: 150px;
+    height: 350px;
+    vertical-align: top;
+    margin: 50px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.casaVenta{
+    display: inline-block;
+}
+.casaVenta{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+.casaVenta li{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    margin: 60px;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+    height: 500px;
+    background-color: #00000075;
+    border-radius: 10px;
+}
+.capla, .calu, .capi{
+    display: inline-flex;
+    width: 270px;
+    height: 150px;
+    padding: 15px;
+}
+.icon{
+    margin: 10px;
+}
+
