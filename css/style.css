@@ -1,7 +1,9 @@
+/*Se trabaja el body, lo general*/
 body{
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+/* Se trabaja el header, el nav*/
 .iniciotag{
     text-align: center;
 }
@@ -29,6 +31,7 @@ h1{
 .iniciotag li:hover{
     background-color: #18222c;    
 }
+/*Se trabaja el banner y el texto que va sobre él*/
 .container{
     width: 100%;
     height: auto;
@@ -42,39 +45,44 @@ h1{
 }
 h2, h3{
     color: #222222;
-    text-align: center;
     font-size: 26px;
 }
 .sub1{
     position: absolute;
     top: 650px;
-    left: 250px;
+    left: 340px;
 }
 .sub2{
     position: absolute;
     top: 695px;
-    left: 300px;
+    left: 450px;
 }
+/*Se trabaja el el about us*/
 .sub3{
-    margin: 40px;
     margin-bottom: 0;
-    font-size: 20px;
+    font-size: 25px;
+    text-align: left;
 }
 .sub4{
     margin-top: 60px;
 }
 .about{
-    display:inline-flexbox; 
-    align-items: center;
-    margin:0px 550px;
-    padding: 0px;
-    
-    
+    margin-bottom: 70px;
 }
-.aboutC1, .aboutC2,.aboutC3{
+.about ul{
+    width: 100%;
+    display:inline-block; 
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+.about li{
+    display: inline-block;
+
+}
+.aboutC1, .aboutC2,.aboutC3 {
     display: inline-block;
     background-color: #00000075;
-    text-align: center;
     color: #fff;
     width: 150px;
     height: 350px;
@@ -84,25 +92,35 @@ h2, h3{
     box-sizing: border-box;
     border-radius: 10px;
 }
-.casaVenta{
-    display: inline-block;
+/*Se trabaja la seccion de ventas, imagenes y recuadros*/
+.Tventa{
+    margin-top: 30px;
+    margin-left: 390px;
+    margin-bottom: 0;
+
 }
 .casaVenta{
-    width: 100%;
     display: inline-block;
-    text-align: center;
+    margin-top: 0;
+}
+.casaVenta ul{
+    display: inline-block;
 }
 .casaVenta li{
     list-style: none;
     display: inline-block;
     text-align: center;
-    margin: 60px;
+    margin: 70px;
     padding: 10px;
     text-align: center;
     width: 300px;
     height: 500px;
-    background-color: #00000075;
+    background-color: #b8b8b8;
     border-radius: 10px;
+    box-shadow: 10px 20px 8px 0px rgba(80, 80, 80, 0.1);
+}
+.casaVenta a{
+    font-size: 20px;
 }
 .capla, .calu, .capi{
     display: inline-flex;
@@ -113,4 +131,114 @@ h2, h3{
 .icon{
     margin: 10px;
 }
+.botonP{
+    margin: 20px;
+    padding: 15px;
+    background-color: #18222c;
+    border-radius: 10px;
+    color: #fff;
+    transition: 0.4s;
+}
+.botonP:hover{
+    background-color: #166637;
+    color: #fff;
+}
+/*Se trabaja la seccion del blog*/
+.Tblog{
+    margin-left: 390px;
+    margin-bottom: 0;
+}
+.blogA{
+    margin: 20px;
+    margin-top: 0;
+    display: inline-block;
 
+}
+.blog1{
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    margin: 60px;
+    padding: 28px;
+    text-align: center;
+    background-color: #284b64b6;
+    border-radius: 8px;
+    box-shadow: 10px 20px 8px 0px rgba(80, 80, 80, 0.1);
+}
+.blog1 a{
+    display: inline-block;
+    font-size: 45px;
+    justify-content: center;
+}
+.blogA article {
+    display: inline-block;
+    vertical-align: top;
+}
+.blog1 hr{
+    margin: 0 auto;
+    margin-bottom: 0;
+    border-color: #fff;
+}
+.blog1 img{
+    width: 75%;
+    height:auto;
+    border-radius: 7px;
+}
+/*Se trabaja el aside, lado derecho y se agrega mas texto*/
+.tComment{
+    color: #fff;
+    text-align: center;
+    margin: 20px;
+    padding: 15px;
+    background-color: #222222;
+    border-radius: 10px;
+    margin-top: 0;
+}
+aside{
+    width: 500px;
+    height: 1200px;
+    margin: 20px;
+    padding: 20px;
+    float: right;
+    margin-top: -690px;
+    background-color: #284b64;
+    border-radius: 10px;
+}
+aside p{
+    font-size: 30px;
+    color: #fff;
+}
+/*Gracias a Dios ya se hace el footer,me va a dar tortícoles, que nivel de tarea :(*/
+footer{
+    margin-top: 30px;
+    background-color: #000;
+    height: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+footer li{
+    list-style: none;
+    display: inline-block;
+    margin: 30px;
+}
+footer p{
+    color: #fff;
+    position: relative;
+    text-align: left;
+    
+}
+.foot1 {
+    color: #fff;
+    text-align: left;
+    margin-top: -80px;
+    
+}
+.foot2 p{
+    margin-bottom:10px;
+}
