@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta keyword="Elementos básicos del html- Formularios" lang="es" content="Elementos de html-Formularios">
     <meta author="Blackdino1500">
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
     <title>Formularios</title>
 </head>
 <body>
     <header>
-        <div>
+        <div class="iniciotag">
             <h1 id="Inicio">BienesRaices</h1>
                 <nav>
                 <ul>
@@ -20,44 +22,51 @@
                     <li><a href="#Contacto">Contacto</a></li>
                 </ul>
                 </nav>
-        <img src="Imagenes/formimg.jpg" alt="casa de bienes raices" height="400" width="600">
-            <h2>Llena el formulario de Contacto</h2> 
-        </div>
+        <div class="container2">
+        <img class="banner2" src="Imagenes/formimg.jpg" alt="casa de bienes raices" height="400" width="600">
+       </div>
+            <h2 class="subF">Llena el formulario de Contacto</h2>
     </header>
-    <main>
+    <main class="form">
         <form>
-            <fieldset>
+            <fieldset class="fieldset">
                 <legend>Información Personal</legend>
-                <label for="Nombre">Nombre</label><br>
-                <input type="text" id="Nombre" name="Nombre" placeholder="Tu Nombre"><br><br>
-                <label for="E-Mail">E-Mail</label><br>
-                <input type="email" name="email" id="email" placeholder="Tu Correo Electronico"><br><br>
-                <label for="Teléfono">Teléfono</label><br>
-                <input type="tel" name="Teléfono" id="Teléfono" placeholder="Tu Teléfono"><br><br>
-                <label for="Mensaje">Mensaje</label><br>
+                <div class="inputS">
+                <label for="Nombre">Nombre</label>
+                <input type="text" id="Nombre" name="Nombre" placeholder="Tu Nombre">
+                <label for="E-Mail">E-Mail</label>
+                <input type="email" name="email" id="email" placeholder="Tu Correo Electronico">
+                <label for="Teléfono">Teléfono</label>
+                <input type="tel" name="Teléfono" id="Teléfono" placeholder="Tu Teléfono">
+                <label for="Mensaje">Mensaje</label>
                 <textarea name="Mensaje" id="Mensaje" rows="10" cols="45" placeholder="Escribe tu mensaje"></textarea>
-            </fieldset><br>
-            <fieldset>
+            </div>
+            </fieldset>
+            <fieldset class="fieldset">
                 <legend>Información sobre Propiedad</legend>
-                <label for="Vende o Compra">Vende o Compra</label><br>
+                <div class="inputS">
+                <label for="Vende o Compra">Vende o Compra</label>
                 <select id="Vende o Compra">
                     <optgroup>
                         <option value="vender">vender</option>
                         <option value="comprar">comprar</option>
                     </optgroup>
-                </select><br>
-                <label for="Cantidad">Cantidad</label><br>
-                <input type="text" name="Cantidad" id="Cantidad""><br><br>
+                </select>
+                <label for="Cantidad">Cantidad</label>
+                <input type="text" name="Cantidad" id="Cantidad"">
+                </div>
             </fieldset><br>
-            <fieldset>
+            <fieldset class="fieldset">
                 <legend>Contacto</legend>
-                <label for="Contacto">Como desea ser contactado</label><br>
-                <input type="checkbox" id="Contacto" value="Telefono">Teléfono <input type="checkbox" id="Contacto" value="E-Mail">E-Mail<br><br>
+                <div class="inputS">
+                <label for="Contacto">Como desea ser contactado</label>
+                <input type="checkbox" id="Contacto" value="Telefono">Teléfono <input type="checkbox" id="Contacto" value="E-Mail">E-Mail
                 <p>Si eligió Teléfono, elija la fecha y la hora</p>
-                <label for="Fecha">Fecha</label><br>
-                <input type="date" name="Fecha" id="Fecha"><br><br>
+                <label for="Fecha">Fecha</label>
+                <input type="date" name="Fecha" id="Fecha">
                 <label for="Hora">Hora</label><br>
-                <input type="time" name="Hora" id="Hora"><br><br>
+                <input type="time" name="Hora" id="Hora">
+               </div>
             </fieldset><br>
             <input type="submit">
         </form>
