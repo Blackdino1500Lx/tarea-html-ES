@@ -1,25 +1,30 @@
-/*Se trabaja el body, lo general*/
-body{
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
     margin: 0;
+    padding: 0;
+}
+
+body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
 }
-/* Se trabaja el header, el nav*/
-.iniciotag{
+
+  /* Header Styles */
+
+.iniciotag {
     text-align: center;
-}
-.iniciotag{
     height: 130px;
     background-color: #f4f9e9;
-}
-h1{
-    color: #000;
-    margin-top: 0;
-}
-.iniciotag a{
+  }
+  
+  .iniciotag a {
     text-decoration: none;
     color: #fff;
-}
-.iniciotag li{
+  }
+  
+  .iniciotag li {
     list-style: none;
     display: inline-block;
     margin: 10px;
@@ -27,60 +32,66 @@ h1{
     background-color: #284b64;
     border-radius: 8px;
     transition: 0.5s;
-}
-.iniciotag li:hover{
-    background-color: #18222c;    
-}
-/*Se trabaja el banner y el texto que va sobre él*/
-.container{
+  }
+  
+  .iniciotag li:hover {
+    background-color: #18222c;
+  }
+  
+  h1 {
+    color: #000;
+    margin-top: 0;
+  }
+  
+  /* Banner Styles */
+  
+  .container {
     width: 100%;
     height: auto;
     text-align: center;
     background-color: #fff;
     padding: 30px;
-}
-.banner{
+  }
+  
+  .banner {
     width: 80%;
     height: 650px;
-}
-h2, h3{
+  }
+  
+  h2, h3 {
     color: #222222;
     font-size: 26px;
-}
-.sub1{
-    position: absolute;
-    top: 650px;
-    left: 340px;
-}
-.sub2{
-    position: absolute;
-    top: 695px;
-    left: 450px;
-}
-/*Se trabaja el el about us*/
-.sub3{
+  }
+  
+  /* About Us Styles */
+  
+  .sub3 {
     margin-bottom: 0;
     font-size: 25px;
     text-align: center;
-}
-.sub4{
+  }
+  
+  .sub4 {
     margin-top: 60px;
-}
-.about{
+  }
+  
+  .about {
     margin-bottom: 70px;
-}
-.about ul{
+  }
+  
+  .about ul {
     width: 100%;
-    display:inline-block; 
+    display: inline-block;
     text-align: center;
     justify-content: center;
     margin: auto;
-}
-.about li{
+  }
+  
+  .about li {
     display: inline-block;
-
-}
-.aboutC1, .aboutC2,.aboutC3 {
+  }
+  
+  .aboutC1, .aboutC2, .aboutC3 {
     display: inline-block;
     background-color: #00000075;
     color: #fff;
@@ -92,22 +103,26 @@ h2, h3{
     padding: 20px;
     box-sizing: border-box;
     border-radius: 10px;
-}
-/*Se trabaja la seccion de ventas, imagenes y recuadros*/
-.Tventa{
+  }
+  
+  /* Sales Section Styles */
+  
+  .Tventa {
     margin-top: 30px;
     margin-left: 390px;
     margin-bottom: 0;
-
-}
-.casaVenta{
+  }
+  
+  .casaVenta {
     display: inline-block;
     margin-top: 0;
-}
-.casaVenta ul{
+  }
+  
+  .casaVenta ul {
     display: inline-block;
-}
-.casaVenta li{
+  }
+  
+  .casaVenta li {
     list-style: none;
     display: inline-block;
     text-align: center;
@@ -119,44 +134,52 @@ h2, h3{
     background-color: #b8b8b8;
     border-radius: 10px;
     box-shadow: 10px 20px 8px 0px rgba(80, 80, 80, 0.1);
-}
-.casaVenta a{
+  }
+  
+  .casaVenta a {
     font-size: 20px;
-}
-.capla, .calu, .capi{
+  }
+  
+  .capla, .calu, .capi {
     display: inline-flex;
     width: 270px;
     height: 150px;
     padding: 15px;
-}
-.icon{
+  }
+  
+  .icon {
     margin: 10px;
-}
-.botonP{
+  }
+  
+  .botonP {
     margin: 20px;
     padding: 15px;
     background-color: #18222c;
     border-radius: 10px;
     color: #fff;
     transition: 0.4s;
-}
-.botonP:hover{
+  }
+  
+  .botonP:hover {
     background-color: #166637;
     color: #fff;
-}
-/*Se trabaja la seccion del blog*/
-.Tblog{
+  }
+  
+  /* Blog Section Styles */
+  
+  .Tblog {
     width: 100%;
     margin-left: 390px;
     margin-bottom: 0;
-}
-.blogA{
+  }
+  
+  .blogA {
     margin: 20px;
     margin-top: 0;
     display: inline-block;
-
-}
-.blog1{
+  }
+  
+  .blog1 {
     width: 300px;
     height: 400px;
     display: inline-block;
@@ -166,147 +189,19 @@ h2, h3{
     background-color: #284b64b6;
     border-radius: 8px;
     box-shadow: 10px 20px 8px 0px rgba(80, 80, 80, 0.1);
-}
-.blog1 a{
+  }
+  
+  .blog1 a {
     display: inline-block;
     font-size: 45px;
     justify-content: center;
-}
-.blogA article {
+  }
+  
+  .blogA article {
     display: inline-block;
     vertical-align: top;
-}
-.blog1 hr{
+  }
+  
+  .blog1 hr {
     margin: 0 auto;
-    margin-bottom: 0;
-    border-color: #fff;
-}
-.blog1 img{
-    width: 75%;
-    height:auto;
-    border-radius: 7px;
-}
-/*Se trabaja el aside, lado derecho y se agrega mas texto*/
-.tComment{
-    color: #fff;
-    text-align: center;
-    margin: 20px;
-    padding: 15px;
-    background-color: #222222;
-    border-radius: 10px;
-    margin-top: 0;
-}
-.aside{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-aside{
-    width: 500px;
-    height: 1200px;
-    margin: 20px;
-    margin-right: 0px;
-    padding: 20px;
-    float: right;
-    background-color: #284b64;
-    border-radius: 10px;
-}
-aside p{
-    font-size: 30px;
-    color: #fff;
-}
-/*Gracias a Dios ya se hace el footer,me va a dar tortícoles, que nivel de tarea :(*/
-footer{
-    margin-top: 30px;
-    width: 100%;
-    background-color: #000;
-    height: 150px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-footer a{
-    text-decoration: none;
-    color: #fff;
-}
-footer li{
-    list-style: none;
-    display: inline-block;
-    margin: 30px;
-}
-footer p{
-    color: #fff;
-    position: relative;
-    text-align: left;
-    
-}
-.foot1 {
-    color: #fff;
-    text-align: left;
-    margin-top: -80px;
-    font-size: 20px;
-    
-}
-.foot2 p{
-    margin-bottom:10px;
-}
-/*Se trabaja el formulario*/
-.container2{
-    width: 100%;
-    height: auto;
-    text-align: center;
-    background-color: #fff;
-    padding: 30px;
-}
-.banner2{
-    width: 80%;
-    height: 650px;
-}
-.subF{
-    margin-bottom: 0;
-    font-size: 25px;
-    text-align: center;
-}
-main{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: auto;
-}
-form{
-    max-width: 600px;
-    margin-top: 800px;
-    padding: 60px 66px;
-    width: 60%;
-    background-color: #f8f8f8;
-    border-radius: 15px;
-    text-align: center;
-}
-fieldset{
-    border:none;
-    margin: 10px;
-    padding: 15px;
-}
-.inputS{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    margin-bottom: 10px;
-}
-label{
-margin: 10px;
-margin-top: 20px;
-margin-bottom: 5px;
-font-size: 15px;
-}
-input, textarea{
-    padding: 17px 25px;
-    border-radius: 15px;
-    margin-bottom: 20px;
-    background-color: #f7fdf3;
-    border: 2px solid #fafafa;
-    color: #284b64;
-}
-/*Se le agrega estilo a la sección de Informacion personal, queda pendiente el resto*/
+   
